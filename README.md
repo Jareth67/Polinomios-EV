@@ -40,7 +40,7 @@ Este proyecto compara el desempeño computacional entre dos métodos para evalua
 
 3. Ejecuta el programa:
 
-    ```bash
+   ```bash
     ./evaluacion
     ```
 
@@ -75,10 +75,12 @@ Este método requiere únicamente `n` multiplicaciones y `n` sumas. Su complejid
 Se evaluaron polinomios de grados desde 10 hasta 1000 (con incrementos de 10).  
 Para cada grado, se generaron coeficientes aleatorios y se calcularon los tiempos promedio de evaluación con ambos métodos, repitiendo el experimento 1000 veces por caso.
 
-Los resultados se guardaron en el archivo `resultados_tiempos.csv`.  
-Puedes generar una gráfica a partir de este archivo para comparar visualmente el rendimiento.
+Los resultados se guardaron en el archivo [Descargar resultados_tiempos.csv](TiemposCSV/resultados_tiempos.csv)
+`.  
+Pude generar una gráfica a partir de este archivo para comparar visualmente el rendimiento.
+## Gráfica comparativa
 
-> 📊 *(Insertar aquí la gráfica generada en Python, Excel o cualquier herramienta)*
+![Comparación de métodos](ResultadosGRAFICA/Grafica.PNG)
 
 ---
 
@@ -92,6 +94,10 @@ Puedes generar una gráfica a partir de este archivo para comparar visualmente e
 
 ---
 
+
+
+
+
 ## Conclusiones
 
 - Horner es **claramente superior** en términos de eficiencia computacional.
@@ -103,7 +109,7 @@ Puedes generar una gráfica a partir de este archivo para comparar visualmente e
 
 ## Datos experimentales
 
-Se incluye el archivo `resultados_tiempos.csv` con los tiempos promedios de evaluación para cada grado.  
+Se incluye el archivo resultados_tiempos.csv con los tiempos promedios de evaluación para cada grado.  
 Este archivo fue generado automáticamente al ejecutar el programa.
 
 ---
