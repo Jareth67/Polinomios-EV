@@ -1,0 +1,48 @@
+# Archivos de compilación
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+# Archivos de depuración
+*.log
+*.dSYM/
+*.stackdump
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de C++
+*.gch
+*.pch
+
+# Archivos temporales y de respaldo
+*~
+*.swp
+*.tmp
+
+# Directorios comunes de compilación
+/build/
+/bin/
+/debug/
+/release/
+
+# Archivos CSV y resultados exportados (ajusta según lo que quieras ignorar)
+*.csv
+*.CSV
+
+# Archivos de gráficos exportados
+*.png
+*.PNG
+
+# Archivos generados automáticamente (como combinaciones)
+Resultados*/ 
+Grafica*/
+
+# Configuración de IDEs (opcional)
+.vscode/
+.idea/
+*.code-workspace
