@@ -30,15 +30,7 @@ Thumbs.db
 /debug/
 /release/
 
-# Archivos CSV y resultados exportados (ajusta según lo que quieras ignorar)
-*.csv
-*.CSV
-
-# Archivos de gráficos exportados
-*.png
-*.PNG
-
-# Archivos generados automáticamente (como combinaciones)
+# Archivos generados automáticamente (excepto CSV y PNG)
 Resultados*/ 
 Grafica*/
 
